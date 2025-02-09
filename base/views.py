@@ -15,7 +15,7 @@ def about(req):
     return render(req, template_name)
 
 def blog_details(req):
-    template_name = 'pages/blog--details.html'
+    template_name = 'pages/blog-details.html'
     return render(req, template_name)
 
 def blog(req):
